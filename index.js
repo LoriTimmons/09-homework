@@ -5,7 +5,7 @@ const Inquire = require("inquirer");
 
 // TODO: Create an array of questions for user input (for "type see mdn package info")
 // build questions 
-// Hints answers I need to plug it in on the MD file 9Markdown file) FS model. File system GOOGLE!!! 
+// Hints answers I need to plug it in on the MD file (Markdown file) FS model. File system GOOGLE!!! 
 const questions = [{
     type: "input",
     name: "title",
