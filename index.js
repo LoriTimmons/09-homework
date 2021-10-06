@@ -36,6 +36,13 @@ message: "What instructions do you need for usage? Include screenshots as needed
 {
     
     type: "input",
+    name: "Contribution",
+    message: "Add your contributors."
+},
+
+{
+    
+    type: "input",
     name: "Test",
     message: "What are your testing commands?"
 },
@@ -47,7 +54,7 @@ message: "What instructions do you need for usage? Include screenshots as needed
 
     // add more 
     choices: [
-        "Apache", "MIT", "Eclipse" , "Boost", "IBM"
+        "Apache", "MIT", "Eclipse" , "Boost", "IBM", "None"
     ]
 },
 
@@ -61,8 +68,8 @@ message: "What instructions do you need for usage? Include screenshots as needed
 {
 
     type: "input",
-    name: "Email",
-    message: "What is your Github username?"
+    name: "GitHub",
+    message: "What is your GitHub username?"
 },
 
 ];

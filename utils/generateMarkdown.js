@@ -1,24 +1,29 @@
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-// Call in Generate markdown 
-// renderLicenseBadge (if statement) see slack for help. Write in license section below. Add option none. See Juans info
-// ${data.License} will be replaced but I call it thru
-function renderLicenseBadge(license) {
-  if (data.license === Apache) {
-    [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+function renderLicenseBadge(data) {
+  if (data.license === "Apache") {
+   return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
   }
 
-  if (data.license === MIT) {
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  if (data.license === "MIT") {
+    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
   }
 
-  if (data.license === Boost) {
-    [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+  if (data.license === "Boost") {
+    return "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)"
   }
 
-  if (data.license === IBM) {
-    [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+  if (data.license === "Eclipse") {
+    return "[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)"
+  }
+
+  if (data.license === "IBM") {
+    return "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)"
+  }
+  // Might need work     
+  if (data.license === "None") {
+    return ""
   }
 };
 
@@ -37,7 +42,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   # Description
-  ${data.description}
+  ${data.Description}
 
   # Installation
   ${data.Installation}
@@ -53,11 +58,11 @@ function generateMarkdown(data) {
   ${data.Test}
 
   # License
-  ${data.renderLicenseBadge} 
+  ${renderLicenseBadge(data)}
 
   # Questions
   ${data.Email}
-  ${data.Github}
+  ${data.GitHub}
 
 `;
 }
