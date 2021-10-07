@@ -71,13 +71,13 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
 # Table of Contents 
-#### Description
-#### Installation
-#### Usage
-#### Contributing
-#### Tests
-#### License
-#### Questions
+[Description](#Description)
+[Installation](#Installation)
+[Usage](#Usage)
+[Contributing](#Contributing)
+[Tests](#Tests)
+[License](#License)
+[Questions](#Questions)
 
   # Description
   ${data.Description}
