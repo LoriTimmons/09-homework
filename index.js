@@ -52,7 +52,6 @@ message: "What instructions do you need for usage? Include screenshots as needed
     name: "license",
     message: "What license do you use?",
 
-    // add more 
     choices: [
         "Apache", "MIT", "Eclipse" , "Boost", "IBM", "None"
     ]

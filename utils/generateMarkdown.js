@@ -27,19 +27,57 @@ function renderLicenseBadge(data) {
   }
 };
 
+// table on content see slack. None to remove section. See slack🚫
+
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-// table on content see slack. None to remove section 
-function renderLicenseLink(license) {}
 
+function renderLicenseLink(data) {
+if (data.license === "Apache") {
+  return "https://www.apache.org/licenses/LICENSE-2.0"
+ }
+
+ if (data.license === "MIT") {
+   return "https://opensource.org/licenses/MIT"
+ }
+
+ if (data.license === "Boost") {
+   return "https://www.boost.org/users/license.html"
+ }
+
+ if (data.license === "Eclipse") {
+   return "https://www.eclipse.org/legal/epl-2.0/"
+ }
+
+ if (data.license === "IBM") {
+   return "https://www-40.ibm.com/software/sla/sladb.nsf"
+ }
+ // Might need work     
+ if (data.license === "None") {
+   return ""
+ }
+};
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (data.license === "") {
+    return 
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 // look at why it returns a #. Research .md sent from Juan 🚫
 function generateMarkdown(data) {
   return `# ${data.title}
+
+# Table of Contents 
+#### Description
+#### Installation
+#### Usage
+#### Contributing
+#### Tests
+#### License
+#### Questions
 
   # Description
   ${data.Description}
@@ -59,6 +97,7 @@ function generateMarkdown(data) {
 
   # License
   ${renderLicenseBadge(data)}
+  ${renderLicenseLink(data)}
 
   # Questions
   ${data.Email}
