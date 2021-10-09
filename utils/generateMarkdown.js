@@ -1,4 +1,8 @@
 
+// Licence badge needs to be at top of readme 🚫
+// Link to git up? 🚫
+// Read instructions 🚫
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(data) {
@@ -27,14 +31,13 @@ function renderLicenseBadge(data) {
   }
 };
 
-// table on content see slack. None to remove section. See slack🚫
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 
 function renderLicenseLink(data) {
 if (data.license === "Apache") {
-  return "https://www.apache.org/licenses/LICENSE-2.0"
+  return "<https://www.apache.org/licenses/LICENSE-2.0>"
  }
 
  if (data.license === "MIT") {
@@ -59,16 +62,25 @@ if (data.license === "Apache") {
 };
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
-  if (data.license === "") {
-    return 
+function renderLicenseSection(data) {
+  console.log(data.license);
+  if (data.license === "None") {
+    return ""
+  } else {
+    return `
+    ${renderLicenseBadge(data)} 
+    <br>
+    ${renderLicenseLink(data)}`
   }
-}
+};
 
 // TODO: Create a function to generate markdown for README
-// look at why it returns a #. Research .md sent from Juan 🚫
 function generateMarkdown(data) {
-  return `# ${data.title}
+  var licenseCheck = renderLicenseSection(data);
+  console.log(licenseCheck);
+  var licenseTitle = "# License";
+  return `${renderLicenseBadge(data)}
+  # ${data.title}
 
 # Table of Contents 
 [Description](#Description)
@@ -94,10 +106,12 @@ function generateMarkdown(data) {
   
   # Tests
   ${data.Test}
+  
+  ${(licenseCheck !== "") ? licenseTitle: ""}
 
-  # License
-  ${renderLicenseBadge(data)}
-  ${renderLicenseLink(data)}
+  ${(licenseCheck !== "") ? renderLicenseBadge(data):""}
+  <br>
+  ${(licenseCheck !== "") ? renderLicenseLink(data):""}
 
   # Questions
   ${data.Email}
