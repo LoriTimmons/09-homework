@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
   # 09 Homework - Generate Markdown File
 
 ## Table of Contents 
@@ -17,12 +17,12 @@
   To create this you need to work in the nodes modules and require the inquirer package. Please use the below steps to set up your project. <br> * Create a .gitignore file to store your node_modules and .ds_store  <br> * run and npm init  <br> * install your npm dependencies (package.json) <br> * Require inquire
 
   ## Usage
-  Use this application to create an awesome README file. <br>
-  ![VS Image 1](./images/VS1.png)  <br> ![VS Image 3](./images/VS3.png) <br>  ![ReadMe Image 1](./images/ss1.png)<br> 
+  Use this application to create an awesome README file. <br> Demonstration Video:<br>
+  ![VS Image 1](./images/VS1.png)  <br> ![VS Image 3](./images/VS3.png) <br>  ![ReadMe Image 1](./images/ss1.png)<br>
 
   ## Contributing
   Online resources <br> https://guides.github.com/features/mastering-markdown/<br> https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba<br> https://www.contributor-covenant.org/ <br>
-  This is an open source project, and I welcome contributors. Please refer to the code of conduct.  
+  This is an open source project. I welcome contributors. Please refer to the code of conduct.  
   [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) 
   
 
@@ -31,9 +31,9 @@
   
   ## License
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
   <br>
-  https://opensource.org/licenses/MIT 
+  https://www.eclipse.org/legal/epl-2.0/ 
 
   ## Questions / Report an Issue
   #### Contact Me @: lorietimmons@gmail.com<br>

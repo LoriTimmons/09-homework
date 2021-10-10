@@ -101,7 +101,7 @@ function generateMarkdown(data) {
 
   ## Contributing
   ${data.Contribution} <br>
-  This is an open source project, and I welcome contributors. Please refer to the code of conduct.  
+  This is an open source project. I welcome contributors. Please refer to the code of conduct.  
   [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) 
   
 

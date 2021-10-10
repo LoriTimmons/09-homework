@@ -36,9 +36,8 @@ message: "What instructions do you need for usage?"
 {
     type: "input",
     name: "Images",
-    message: "Input any screenshots"
+    message: "Input any screenshots."
     },
-
 
 {
     
