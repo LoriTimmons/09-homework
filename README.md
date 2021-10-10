@@ -17,7 +17,7 @@
   To create this you need to work in the nodes modules and require the inquirer package. Please use the below steps to set up your project. <br> * Create a .gitignore file to store your node_modules and .ds_store  <br> * run and npm init  <br> * install your npm dependencies (package.json) <br> * Require inquire
 
   ## Usage
-  Use this application to create an awesome README file. <br> Demonstration Video:[![Watch the video](https://watch.screencastify.com/v/2Vcnc44jwvjJCS1W2rbg)<br>
+  Use this application to create an awesome README file. <br> Demonstration Video:[!Watch the video](https://watch.screencastify.com/v/2Vcnc44jwvjJCS1W2rbg)<br>
   ![VS Image 1](./images/VS1.png)  <br> ![VS Image 3](./images/VS3.png) <br>  ![ReadMe Image 1](./images/ss1.png)<br>
 
   ## Contributing
