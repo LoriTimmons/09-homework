@@ -1,38 +1,38 @@
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-  # 09 HomeWork - Lori Timmons
+[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+  # 09 Homework README.md 
 
-# Table of Contents 
-[Description](#Description) <br>
-[Installation](#Installation)<br>
+## Table of Contents 
+[Description](##Description) <br>
+[Installation](##Installation)<br>
 [Usage](#Usage)<br>
-[Contributing](#Contributing)<br>
-[Tests](#Tests)<br>
-[License](#License)<br>
-[Questions](#Questions)<br>
+[Contributing](##Contributing)<br>
+[Tests](##Tests)<br>
+[License](##License)<br>
+[Questions](##Questions)<br>
 
-  # Description
-  This project ....
+  ## Description
+  This is a really cool project 
 
-  # Installation
-  The steps are ...
+  ## Installation
+  Lots of cool steps are invlolved 
 
-  # Usage
-  Please ensure to review 
+  ## Usage
+  So many, lots to to do, lots to do
 
-  # Contributing
+  ## Contributing
   undefined
 
   
-  # Tests
-  ?
+  ## Tests
+  Need to come up with test? 
   
-  # License
+  ## License
 
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
   <br>
-  <https://www.apache.org/licenses/LICENSE-2.0>
+  https://www.boost.org/users/license.html
 
-  # Questions
-  lorietimmons@gmail.com
-  lorietimmons
+  ## Questions
+  #### Contact Me @: lorietimmons@gmail.com<br>
+  #### GitHub Profile: lorietimmons
 

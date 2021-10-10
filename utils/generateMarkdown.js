@@ -78,33 +78,33 @@ function renderLicenseSection(data) {
 function generateMarkdown(data) {
   var licenseCheck = renderLicenseSection(data);
   console.log(licenseCheck);
-  var licenseTitle = "# License";
+  var licenseTitle = "## License";
   return `${renderLicenseBadge(data)}
   # ${data.title}
 
-# Table of Contents 
-[Description](#Description) <br>
-[Installation](#Installation)<br>
+## Table of Contents 
+[Description](##Description) <br>
+[Installation](##Installation)<br>
 [Usage](#Usage)<br>
-[Contributing](#Contributing)<br>
-[Tests](#Tests)<br>
-[License](#License)<br>
-[Questions](#Questions)<br>
+[Contributing](##Contributing)<br>
+[Tests](##Tests)<br>
+[License](##License)<br>
+[Questions](##Questions)<br>
 
-  # Description
+  ## Description
   ${data.Description}
 
-  # Installation
+  ## Installation
   ${data.Installation}
 
-  # Usage
+  ## Usage
   ${data.Usage}
 
-  # Contributing
+  ## Contributing
   ${data.Contributing}
 
   
-  # Tests
+  ## Tests
   ${data.Test}
   
   ${(licenseCheck !== "") ? licenseTitle: ""}
@@ -113,9 +113,9 @@ function generateMarkdown(data) {
   <br>
   ${(licenseCheck !== "") ? renderLicenseLink(data):""}
 
-  # Questions
-  ${data.Email}
-  ${data.GitHub}
+  ## Questions
+  #### Contact Me @: ${data.Email}<br>
+  #### GitHub Profile: ${data.GitHub}
 
 `;
 }
