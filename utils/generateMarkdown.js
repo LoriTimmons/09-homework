@@ -83,13 +83,13 @@ function generateMarkdown(data) {
   # ${data.title}
 
 ## Table of Contents 
-[Description](##Description) <br>
-[Installation](##Installation)<br>
+[Description](#Description) <br>
+[Installation](#Installation)<br>
 [Usage](#Usage)<br>
-[Contributing](##Contributing)<br>
-[Tests](##Tests)<br>
-[License](##License)<br>
-[Questions](##Questions)<br>
+[Contributing](#Contributing)<br>
+[Tests](#Tests)<br>
+[License](#License)<br>
+[Questions](#Questions)<br>
 
   ## Description
   ${data.Description}
