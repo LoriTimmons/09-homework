@@ -1,7 +1,6 @@
-
-// Licence badge needs to be at top of readme 🚫
-// Link to git up? 🚫
-// Read instructions 🚫
+// edge case: 
+// Make "license" in TOC disappear 
+// TODO: Include packages needed for this application
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
@@ -63,7 +62,6 @@ if (data.license === "Apache") {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(data) {
-  console.log(data.license);
   if (data.license === "None") {
     return ""
   } else {
@@ -74,22 +72,22 @@ function renderLicenseSection(data) {
   }
 };
 
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   var licenseCheck = renderLicenseSection(data);
-  console.log(licenseCheck);
   var licenseTitle = "## License";
   return `${renderLicenseBadge(data)}
   # ${data.title}
 
 ## Table of Contents 
-[Description](#Description) <br>
-[Installation](#Installation)<br>
-[Usage](#Usage)<br>
-[Contributing](#Contributing)<br>
-[Tests](#Tests)<br>
-[License](#License)<br>
-[Questions](#Questions)<br>
+* [Description](#Description)  <br>
+* [Installation](#Installation)<br>
+* [Usage](#Usage)<br>
+* [Contributing](#Contributing)<br>
+* [Tests](#Tests)<br>
+* [License](#License)<br>
+* [Questions / Issues](#Questions)<br>
 
   ## Description
   ${data.Description}
@@ -101,9 +99,11 @@ function generateMarkdown(data) {
   ${data.Usage}
 
   ## Contributing
-  ${data.Contribution}
-
+  ${data.Contribution} <br>
+  This is an open source project, and I welcome contributors. Please refer to the code of conduct.  
+  [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) 
   
+
   ## Tests
   ${data.Test}
   
@@ -111,12 +111,11 @@ function generateMarkdown(data) {
 
   ${(licenseCheck !== "") ? renderLicenseBadge(data):""}
   <br>
-  ${(licenseCheck !== "") ? renderLicenseLink(data):""}
+  ${(licenseCheck !== "") ? renderLicenseLink(data):""} 
 
-  ## Questions
+  ## Questions / Report an Issue
   #### Contact Me @: ${data.Email}<br>
   #### GitHub Profile: ${data.GitHub}
-
 `;
 }
 
