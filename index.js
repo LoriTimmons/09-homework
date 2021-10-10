@@ -30,8 +30,15 @@ message: "What are the steps required to install your project? Provide a step-by
 {
 type: "input",
 name: "Usage",
-message: "What instructions do you need for usage? Include screenshots as needed."
+message: "What instructions do you need for usage?"
 },
+
+{
+    type: "input",
+    name: "Images",
+    message: "Input any screenshots"
+    },
+
 
 {
     
@@ -69,6 +76,11 @@ message: "What instructions do you need for usage? Include screenshots as needed
     type: "input",
     name: "GitHub",
     message: "What is your GitHub username?"
+},
+{
+type: "input",
+name: "Repo",
+message: "What is your GitHub Repo Link?"
 },
 
 ];

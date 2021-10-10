@@ -96,7 +96,8 @@ function generateMarkdown(data) {
   ${data.Installation}
 
   ## Usage
-  ${data.Usage}
+  ${data.Usage}<br>
+  ${data.Images}
 
   ## Contributing
   ${data.Contribution} <br>
@@ -116,6 +117,7 @@ function generateMarkdown(data) {
   ## Questions / Report an Issue
   #### Contact Me @: ${data.Email}<br>
   #### GitHub Profile: ${data.GitHub}
+  #### GitHub Repo Link: ${data.Repo}
 `;
 }
 
