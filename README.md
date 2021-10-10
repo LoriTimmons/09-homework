@@ -1,5 +1,5 @@
-[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
-  # 09 Homework - README.md 
+[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
+  # 09 Homework - ReadME.md
 
 ## Table of Contents 
 [Description](#Description) <br>
@@ -11,26 +11,26 @@
 [Questions](#Questions)<br>
 
   ## Description
-  This is a really cool project that will help we create and awesome README file. 
+  This is an awesome project 
 
   ## Installation
-  There are so many steps involved 
+  So many steps 
 
   ## Usage
-  I got a list of instructions for you
+  I got a list
 
   ## Contributing
-  undefined
+  Lori timmons, Winnie the Pooh, Ned Stark, Dora 
 
   
   ## Tests
-  I got test! 
+  I got some test. 
   
   ## License
 
-  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+  [![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
   <br>
-  https://www-40.ibm.com/software/sla/sladb.nsf
+  https://www.eclipse.org/legal/epl-2.0/
 
   ## Questions
   #### Contact Me @: lorietimmons@gmail.com<br>

@@ -101,7 +101,7 @@ function generateMarkdown(data) {
   ${data.Usage}
 
   ## Contributing
-  ${data.Contributing}
+  ${data.Contribution}
 
   
   ## Tests
