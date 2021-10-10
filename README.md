@@ -1,36 +1,36 @@
-[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
-  # 09 Homework README.md 
+[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+  # 09 Homework - README.md 
 
 ## Table of Contents 
-[Description](##Description) <br>
-[Installation](##Installation)<br>
+[Description](#Description) <br>
+[Installation](#Installation)<br>
 [Usage](#Usage)<br>
-[Contributing](##Contributing)<br>
-[Tests](##Tests)<br>
-[License](##License)<br>
-[Questions](##Questions)<br>
+[Contributing](#Contributing)<br>
+[Tests](#Tests)<br>
+[License](#License)<br>
+[Questions](#Questions)<br>
 
   ## Description
-  This is a really cool project 
+  This is a really cool project that will help we create and awesome README file. 
 
   ## Installation
-  Lots of cool steps are invlolved 
+  There are so many steps involved 
 
   ## Usage
-  So many, lots to to do, lots to do
+  I got a list of instructions for you
 
   ## Contributing
   undefined
 
   
   ## Tests
-  Need to come up with test? 
+  I got test! 
   
   ## License
 
-  [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
   <br>
-  https://www.boost.org/users/license.html
+  https://www-40.ibm.com/software/sla/sladb.nsf
 
   ## Questions
   #### Contact Me @: lorietimmons@gmail.com<br>

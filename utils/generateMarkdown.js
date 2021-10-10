@@ -91,10 +91,10 @@ function generateMarkdown(data) {
 [License](#License)<br>
 [Questions](#Questions)<br>
 
-  # Description
+  ## Description
   ${data.Description}
 
-  # Installation
+  ## Installation
   ${data.Installation}
 
   ## Usage
