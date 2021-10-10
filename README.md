@@ -35,7 +35,7 @@
   <br>
   https://www.eclipse.org/legal/epl-2.0/ 
 
-  ## Questions / Report an Issue
+  ## Questions
   #### Contact Me @: lorietimmons@gmail.com<br>
   #### GitHub Profile: LoriTimmons
   #### GitHub Repo Link: https://github.com/LoriTimmons/09-homework
